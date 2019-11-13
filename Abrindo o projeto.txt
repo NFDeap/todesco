@@ -1,0 +1,22 @@
+
+
+    Abrindo o Projeto - CatalogoCarros - Todesco Veículos
+
+1. Instalar xampp ( https://www.apachefriends.org/pt_br/download.html )
+
+2. Instalar Composer ( https://getcomposer.org/download/ ) // Download and run Composer-Setup.exe - 
+it will install the latest composer version whenever it is executed.
+
+3. Baixar o Projeto ( https://github.com/NFDeap/BlogCarros_att ) // Clone or Download // Download ZIP
+
+4. Extrair o projeto no C:
+
+5. Abrir o CMD e acessar a pasta blog do projeto. // Ao abrir o CMD -> 
+    $ cd /
+    $ cd BlogCarros_att-master (Tecla tab para completar)
+    $ cd blog
+    $ php artisan serve // Rodando o Servidor.
+
+6. Acessar localhost:8000 ou localhost:8000/admin pelo browser
+
+OBS: Login parte administrativa -> admin@admin.com // 123456

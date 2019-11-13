@@ -1,0 +1,66 @@
+
+Caso seja necessário criar outro BD:
+------------------------------------------------------
+AuthServiceProvider:
+------------------------------------------------------
+
+  public function boot()
+    {
+        $this->registerPolicies();
+
+/*
+        foreach($this->getPermissoes() as $permissao){
+            Gate::define($permissao->nome, 
+                function($user) use($permissao){
+                    return $user->existePapel($permissao->papeis) || $user->existeAdmin();
+                });
+        }    
+*/    
+    }
+/*
+    public function getPermissoes(){
+        return Permissao::with('papeis')->get();
+*/
+    }
+
+-----------
+Comentar os blocos a cima antes de rodar o php artisan migrate.
+
+
+------------------------------------------------------
+------------------------------------------------------
+Autenticação de usuário:
+Adicionar Papel ao usuário admin:
+------------------------------------------------------
+UsuarioController:
+------------------------------------------------------
+   public function index(){
+/*
+        if(auth()->user()->can('usuario_listar')){
+            $usuarios = User::all();
+            return view('admin.usuarios.index',compact('usuarios'));            
+        }
+        else{
+            return redirect()->route('admin.principal');            
+        } 
+*/  
+        
+        $usuarios = User::all();
+        return view('admin.usuarios.index',compact('usuarios'));
+    }
+
+------------------------------------------------------
+Admin/Usuarios: index.blade.php
+------------------------------------------------------
+
+                            <a class="btn orange" href="{{ route('admin.usuarios.editar',$usuario->id) }}">Editar</a>                            
+                            <a class="btn blue" href="{{ route('admin.usuarios.papel',$usuario->id) }}">Papel</a>         
+
+                        @can('usuario_deletar')
+                            <a class="btn red" href="javascript: if(confirm('Deletar esse Registro?')){window.location.href = '{{ route('admin.usuarios.deletar',$usuario->id) }}'}">Deletar</a>                           
+                        @endcan                            
+                        </td>
+
+------------------------------------------------------
+
+
