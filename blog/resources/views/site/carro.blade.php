@@ -47,21 +47,35 @@
 
                     <div class="divider"></div>
 
-                    <blockquote>       
-                    <p>
-                    <i class="material-icons left">call</i>Telefone: {{ $contatos->telefone }}
-                    <br>
-                    <br>
-                    <i class="material-icons">phone_iphone</i> &nbsp WhatsApp: {{ $contatos->whatsapp }}
-                    </p>                  
-                    </blockquote>   
+                    <div class="postContato">    
+                        <!-- <div class="col m5"> -->
+                        <blockquote>                           
+                            <table class="tableContato">
+                                <thead>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><i class="material-icons left">call</i></td>
+                                        <td><b>Telefone: {{ $contatos->telefone }}</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="imgWhatsapp2" src="http://localhost:8000/img/whatsapp.png"></td>
+                                        <td><b>WhatsApp: {{ $contatos->whatsapp }}</b></td>
+                                    </tr>
+                                </tbody>
+                            </table>                             
+                        </blockquote>   
+                        <!-- </div> -->
+
+                        <a href="{{ route('site.contato') }}">                                          
+                        <button class="btn btn1" type="button">
+                            Ir Para Pagina de contato
+                            <i class="material-icons right">email</i>
+                        </button>
+                        </a>
+                        
+                    </div>
                     
-                    <a href="{{ route('site.contato') }}">                                          
-                    <button class="btn btn1" type="button">
-                        Ir Para Pagina de contato
-                        <i class="material-icons right">email</i>
-                    </button>
-                    </a>
                 </div>
                 <div class="col s12 m4">
 

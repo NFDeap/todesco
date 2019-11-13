@@ -396,3 +396,20 @@ tbody tr td{
   background-color: #b53033;
   border-bottom: 1px solid #b53033;
 }
+
+.tableContato tr td{
+  padding:5px;
+  margin:1px;
+  border-bottom: 1px solid #f3f5f8;
+}
+
+.tableContato{
+  padding:5px;
+  margin:1px;
+  width: auto;
+}
+
+.textNovEstoque{
+  padding:5px;
+  margin:1px;
+}

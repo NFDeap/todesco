@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Carro;
 use App\Contato;
+use App\Galeria;
 
 class CarroController extends Controller
 {

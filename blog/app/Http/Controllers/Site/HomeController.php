@@ -10,6 +10,7 @@ use App\Slide;
 use App\Marca;
 use App\Modelo;
 use App\Contato;
+use App\Galeria;
 
 class HomeController extends Controller
 {
@@ -17,13 +18,30 @@ class HomeController extends Controller
     public function index(){
         
         $carros = Carro::where('publicar','=','sim')->orderBy('id','desc')->paginate(32);
-        $slides = Slide::where('publicado','=','sim')->orderBy('ordem')->get();
-        
+        $slides = Slide::where('publicado','=','sim')->orderBy('ordem')->get();        
+        $galeria = Galeria::where('carro_id','<>',null)->get();
+        /* dd($galeria); */
+
         $paginacao = true;
         
         $marcas = Marca::orderBy('titulo')->get();
         $modelos = Modelo::orderBy('titulo')->get();
         $contatos = Contato::find(1);
+        
+        $totalCarrosID = Carro::all();        
+
+        foreach($totalCarrosID as $d){            
+            $d = $d->id;            
+           /*
+            $carro = Carro::find($d);
+            $galeria = $carro->galeria()->orderBy('ordem')->get();
+            */
+            /* $carro = Carro::where('id','=',$d)->get();*/
+            $carro = Carro::find($d);            
+            $galeria = $carro->galeria()->orderBy('ordem')->get();
+        }
+
+
         return view('site.home',compact('carros','slides','paginacao','marcas','modelos','contatos'));
     }
 
