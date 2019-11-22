@@ -39,12 +39,12 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><a class="" href="#"><img class="imgInstagram" src="http://localhost:8000/img/instagram.png"></a></td>
-                                <td><a class="light-text2" href="#"><b>Instagram</b></a></td>                                
+                                <td><a class="" target="_blanck" href="https://www.instagram.com/todescoveiculos/?hl=pt-br"><img class="imgInstagram" src="http://localhost:8000/img/instagram.png"></a></td>
+                                <td><a class="light-text2" target="_blanck" href="https://www.instagram.com/todescoveiculos/?hl=pt-br"><b>Instagram</b></a></td>                                
                             </tr>
                             <tr>
-                                <td><a class="" href="#"><img class="imgFacebook" src="http://localhost:8000/img/facebook.png"></a></td>
-                                <td><a class="light-text2" href="#"><b>Facebook</b></a></td>
+                                <td><a class="" target="_blanck" href="https://www.facebook.com/todescoveiculos/"><img class="imgFacebook" src="http://localhost:8000/img/facebook.png"></a></td>
+                                <td><a class="light-text2" target="_blanck" href="https://www.facebook.com/todescoveiculos/"><b>Facebook</b></a></td>
                             </tr>
                         </tbody>
                     </table>
