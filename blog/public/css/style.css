@@ -377,7 +377,11 @@ tbody tr td{
 
 
 .light-text{
-  color: rgb(107, 107, 107);
+  color: rgb(134, 134, 134);
+}
+
+.light-text2{
+  color: rgb(223, 223, 223);
 }
 
 .detalhesCarro tr td{
@@ -390,6 +394,18 @@ tbody tr td{
 
 .imgWhatsapp2{
   width: 30px;
+}
+
+.plusFooter tr td{
+  padding: 8px;
+}
+
+.imgFacebook{
+  width: 30px;
+}
+
+.imgInstagram{
+  width: 34px;
 }
 
 .tableFooter tr td{  

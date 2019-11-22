@@ -34,13 +34,27 @@
           <h5 class="white-text">Links</h5>
                 <ul class="footerLinks">
                     <div class="col m6">
-                    <li><a class="" href="{{ route('site.home') }}"><b>Home</b></a></li>
-                    <li><a class="" href="{{ route('site.sobre') }}"><b>Sobre</b></a></li>
-                    <li><a class="" href="{{ route('site.contato') }}"><b>Contato</b></a></li>            
+                    <table class="tableFooter plusFooter">
+                        <thead>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a class="" href="#"><img class="imgInstagram" src="http://localhost:8000/img/instagram.png"></a></td>
+                                <td><a class="light-text2" href="#"><b>Instagram</b></a></td>                                
+                            </tr>
+                            <tr>
+                                <td><a class="" href="#"><img class="imgFacebook" src="http://localhost:8000/img/facebook.png"></a></td>
+                                <td><a class="light-text2" href="#"><b>Facebook</b></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
                     </div>            
                 </ul>
                 <ul class="footerLinks">
                     <div class="col m6">
+                    <li><a class="" href="{{ route('site.home') }}"><b>Home</b></a></li>
+                    <li><a class="" href="{{ route('site.sobre') }}"><b>Sobre</b></a></li>
+                    <li><a class="" href="{{ route('site.contato') }}"><b>Contato</b></a></li>            
                     <li><a class="" href="{{ route('site.financiamento') }}"><b>Financiamento</b></a></li>
                     <li><a class="" href="{{ route('site.trabalheconosco') }}"><b>Trabalhe Conosco</b></a></li>                    
                     </div>            

@@ -27,7 +27,7 @@
                     </blockquote>
                     <p>{{ $pagina->texto }}</p>
        
-                    <table>
+                    <table class="tableContato">
                         <thead>
                         </thead>
                         <tbody>
