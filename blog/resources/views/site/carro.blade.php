@@ -59,8 +59,12 @@
                                         <td><b>Telefone: {{ $contatos->telefone }}</b></td>
                                     </tr>
                                     <tr>
-                                        <td><img class="imgWhatsapp2" src="http://localhost:8000/img/whatsapp.png"></td>
-                                        <td><b>WhatsApp: {{ $contatos->whatsapp }}</b></td>
+                                        <td><a target="_blanck" href="https://api.whatsapp.com/send?1=pt_BR&phone=5515974045144"><img class="imgWhatsapp2" src="http://localhost:8000/img/whatsapp.png"></a></td>
+                                        <td><a class="alink" target="_blanck" href="https://api.whatsapp.com/send?1=pt_BR&phone=5515974045144"><b>WhatsApp: {{ $contatos->whatsapp }}</b></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="" target="_blanck" href="https://www.facebook.com/todescoveiculos/"><img class="imgFacebook" src="http://localhost:8000/img/facebook.png"></a></td>
+                                        <td><a class="alink" target="_blanck" href="https://www.facebook.com/todescoveiculos/"><b>Facebook</b></a></td>
                                     </tr>
                                 </tbody>
                             </table>                             

@@ -40,11 +40,6 @@
                                     <label>CPF ou CNPJ</label>
                                     <span class="helper-text" data-error="wrong"  >Exemplo: 999.999.999/99 ou 99.999.999/0009-99</span>
                                 </div>
-                                <div class="input-field">
-                                    <input type="text" name="RG" class="validate" maxlength="12">
-                                    <label>RG</label>
-                                    <span class="helper-text" data-error="wrong"  >Exemplo: 99.999.999-99</span>
-                                </div>
                             </div>
 
                             <div class="col m6">
@@ -53,11 +48,6 @@
                                     <label>Nascimento</label>
                                     <span class="helper-text" data-error="wrong"  >Exemplo: 99/99/9999</span>
                                 </div>                                                                                                               
-                                <div class="input-field">
-                                    <input type="text" name="telefone" class="validate" maxlength="16">
-                                    <label>Telefone</label>
-                                    <span class="helper-text" data-error="wrong"  >Exemplo: (99) 9999-9999</span>
-                                </div>
                                 <div class="input-field">
                                     <input type="text" name="celular" class="validate" maxlength="16">
                                     <label>Celular / WhatsApp</label>

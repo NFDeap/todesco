@@ -15,8 +15,8 @@
                         <td>Telefone: {{ $contatos->telefone }}</td>
                     </tr>
                     <tr>
-                        <td><img class="imgWhatsapp2" src="http://localhost:8000/img/whatsapp.png"></td>
-                        <td>WhatsApp: {{ $contatos->whatsapp }}</td>
+                        <td><a target="_blanck" href="https://api.whatsapp.com/send?1=pt_BR&phone=5515974045144"><img class="imgWhatsapp2" src="http://localhost:8000/img/whatsapp.png"></a></td>
+                        <td><a class="light-text2" target="_blanck" href="https://api.whatsapp.com/send?1=pt_BR&phone=5515974045144">WhatsApp: {{ $contatos->whatsapp }}</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -55,7 +55,7 @@
                     <li><a class="" href="{{ route('site.home') }}"><b>Home</b></a></li>
                     <li><a class="" href="{{ route('site.sobre') }}"><b>Sobre</b></a></li>
                     <li><a class="" href="{{ route('site.contato') }}"><b>Contato</b></a></li>            
-                    <li><a class="" href="{{ route('site.financiamento') }}"><b>Financiamento</b></a></li>
+                    <li><a class="" href="{{ route('site.financiamento') }}"><b>Simulação</b></a></li>
                     <li><a class="" href="{{ route('site.trabalheconosco') }}"><b>Trabalhe Conosco</b></a></li>                    
                     </div>            
                 </ul>

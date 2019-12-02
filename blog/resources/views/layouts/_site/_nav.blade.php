@@ -16,8 +16,9 @@
                         <li><a class="" href="{{ route('site.home') }}">Home</a></li>
                         <li><a href="{{ route('site.sobre') }}">Sobre</a></li>
                         <li><a href="{{ route('site.contato') }}">Contato</a></li>                
-                        <li><a href="{{ route('site.financiamento') }}">Financiamento</a></li>   
-                        <li><a href="{{ route('site.trabalheconosco') }}">Trabalhe Conosco</a></li>    
+                        <li><a href="{{ route('site.financiamento') }}">Simulação</a></li>   
+                        <li><a target="_blanck" href="https://www.serasaconsumidor.com.br/score/">Consulta Score</a></li>    
+                        <li><a href="{{ route('site.trabalheconosco') }}">Trabalhe Conosco</a></li>                            
                     </ul>            
                     </div>
                 </div>
@@ -27,7 +28,7 @@
                 <li><a href="{{ route('site.home') }}">Home</a></li>
                 <li><a href="{{ route('site.sobre') }}">Sobre</a></li>
                 <li><a href="{{ route('site.contato') }}">Contato</a></li>
-                <li><a href="{{ route('site.financiamento') }}">Financiamento</a></li>
+                <li><a href="{{ route('site.financiamento') }}">Simulação</a></li>
                 <li><a href="{{ route('site.trabalheconosco') }}">Trabalhe Conosco</a></li>
             </ul>
         </div>        
