@@ -1,5 +1,10 @@
 
-Caso seja necessário criar outro BD:
+1. $ php artisan migrate -> Migrar as tabelas
+2. $ php artisan db:seed -> Popular
+
+
+
+Caso seja necessï¿½rio criar outro BD:
 ------------------------------------------------------
 AuthServiceProvider:
 ------------------------------------------------------
@@ -29,8 +34,8 @@ Comentar os blocos a cima antes de rodar o php artisan migrate.
 
 ------------------------------------------------------
 ------------------------------------------------------
-Autenticação de usuário:
-Adicionar Papel ao usuário admin:
+Autenticaï¿½ï¿½o de usuï¿½rio:
+Adicionar Papel ao usuï¿½rio admin:
 ------------------------------------------------------
 UsuarioController:
 ------------------------------------------------------

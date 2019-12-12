@@ -29,16 +29,16 @@ class UsuarioController extends Controller
 
     public function index(){
 
-        if(auth()->user()->can('usuario_listar')){
+      /*   if(auth()->user()->can('usuario_listar')){
             $usuarios = User::all();
             return view('admin.usuarios.index',compact('usuarios'));            
         }
         else{
             return redirect()->route('admin.principal');            
-        }   
+        }    */
         
-        /* $usuarios = User::all();
-        return view('admin.usuarios.index',compact('usuarios')); */
+        $usuarios = User::all();
+        return view('admin.usuarios.index',compact('usuarios'));
     }
 
     public function adicionar(){

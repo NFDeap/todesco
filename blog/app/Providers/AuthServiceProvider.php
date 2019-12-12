@@ -26,20 +26,22 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        /*Gate::define('listar-usuarios', 
+        Gate::define('listar-usuarios', 
             function ($user,$permissao){
                 return $user->isAdmin;
-            });*/
+            });
 
-        foreach($this->getPermissoes() as $permissao){
+         /* foreach($this->getPermissoes() as $permissao){
             Gate::define($permissao->nome, 
                 function($user) use($permissao){
                     return $user->existePapel($permissao->papeis) || $user->existeAdmin();
                 });
-        }        
+        } */
+
     }
 
-    public function getPermissoes(){
+    /* public function getPermissoes(){
         return Permissao::with('papeis')->get();
-    }
+    }  */
+    
 }

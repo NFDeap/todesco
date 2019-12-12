@@ -385,7 +385,11 @@ tbody tr td{
 }
 
 .detalhesCarro tr td{
-  padding: 9px;  
+  padding: 6px;      
+}
+
+.detalhesCarro tr{
+  padding: 1px;      
 }
 
 .imgWhatsapp{

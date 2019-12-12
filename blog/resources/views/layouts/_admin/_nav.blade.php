@@ -17,11 +17,9 @@
                         <li><a href="{{ route('admin.carros') }}">Carros</a></li>
                         <li><a href="{{ route('admin.marcas') }}">Marcas</a></li>
                         <li><a href="{{ route('admin.modelos') }}">Modelos</a></li>
-                        <li><a href="{{ route('admin.slides') }}">Slides</a></li>    
-                        @can('usuario_listar')
-                        <li><a href="{{ route('admin.usuarios') }}">Usuários</a></li>                        
-                        @endcan                                              
-                        <li><a href="{{ route('admin.papel') }}">Papel</a></li>   
+                        <li><a href="{{ route('admin.slides') }}">Slides</a></li>                            
+                        <li><a href="{{ route('admin.usuarios') }}">Usuários</a></li>                                                
+                        <!-- <li><a href="{{ route('admin.papel') }}">Papel</a></li>    -->
                         <li><a href="{{ route('admin.paginas') }}">Páginas</a></li>
                         <li><a href="{{ route('admin.contatos') }}">Contatos</a></li>  
                     </ul>
@@ -43,11 +41,9 @@
                     <li><a href="{{ route('admin.carros') }}">Carros</a></li>
                     <li><a href="{{ route('admin.marcas') }}">Marcas</a></li>
                     <li><a href="{{ route('admin.modelos') }}">Modelos</a></li>
-                    <li><a href="{{ route('admin.slides') }}">Slides</a></li> 
-                    @can('usuario_listar')
-                    <li><a href="{{ route('admin.usuarios') }}">Usuários</a></li>  
-                    @endcan                                           
-                    <li><a href="{{ route('admin.papel') }}">Papel</a></li>                     
+                    <li><a href="{{ route('admin.slides') }}">Slides</a></li>                     
+                    <li><a href="{{ route('admin.usuarios') }}">Usuários</a></li>                                                             
+                    <!-- <li><a href="{{ route('admin.papel') }}">Papel</a></li>         -->             
                     <li><a href="{{ route('admin.paginas') }}">Páginas</a></li>
                     <li><a href="{{ route('admin.contatos') }}">Contatos</a></li> 
                 </ul>

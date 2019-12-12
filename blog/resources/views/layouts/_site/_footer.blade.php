@@ -56,6 +56,7 @@
                     <li><a class="" href="{{ route('site.sobre') }}"><b>Sobre</b></a></li>
                     <li><a class="" href="{{ route('site.contato') }}"><b>Contato</b></a></li>            
                     <li><a class="" href="{{ route('site.financiamento') }}"><b>Simulação</b></a></li>
+                    <li><a target="_blanck" href="https://www.serasaconsumidor.com.br/score/"><b>Consulta Score</b></a></li>
                     <li><a class="" href="{{ route('site.trabalheconosco') }}"><b>Trabalhe Conosco</b></a></li>                    
                     </div>            
                 </ul>

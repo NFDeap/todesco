@@ -16,8 +16,10 @@
                     {!! $pagina->mapa !!}
                     </div>
 
+                @elseif(isset($pagina->imagem))
+                <img class="responsive-img admPost" src="{{ asset($pagina->imagem) }}">               
                 @else
-                <img class="responsive-img admPost" src="{{ asset($pagina->imagem) }}">
+                <h5>Teste</5>
                 @endif
                 
                 </div>

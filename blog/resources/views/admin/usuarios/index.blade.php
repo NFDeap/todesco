@@ -17,10 +17,8 @@
             </nav>
         </div>
 
-        <div class="row">      
-        @can('usuario_adicionar')      
-            <a class="btn btncar" href="{{ route('admin.usuarios.adicionar') }}">Adicionar <i class="material-icons right">add</i> </a>        
-        @endcan
+        <div class="row">                
+            <a class="btn btncar" href="{{ route('admin.usuarios.adicionar') }}">Adicionar <i class="material-icons right">add</i> </a>                
         </div>
 
         <div class="row">
@@ -39,14 +37,11 @@
                         <td>{{ $usuario->id }}</td>
                         <td>{{ $usuario->name }}</td>
                         <td>{{ $usuario->email }}</td>
-                        <td>                           
-                        @can('usuario_editar')
+                        <td>                                                   
                             <a class="btn btn1" href="{{ route('admin.usuarios.editar',$usuario->id) }}">Editar <i class="material-icons right">edit</i> </a>                            
-                            <a class="btn btn2" href="{{ route('admin.usuarios.papel',$usuario->id) }}">Papel <i class="material-icons right">person</i> </a>         
-                        @endcan                   
-                        @can('usuario_deletar')
+                            <!-- <a class="btn btn2" href="{{ route('admin.usuarios.papel',$usuario->id) }}">Papel <i class="material-icons right">person</i> </a>                                  -->                        
                             <a class="btn btn3" href="javascript: if(confirm('Deletar esse Registro?')){window.location.href = '{{ route('admin.usuarios.deletar',$usuario->id) }}'}">Deletar <i class="material-icons right">delete</i> </a>                           
-                        @endcan                            
+                                          
                         </td>
                     </tr>
                 @endforeach    

@@ -37,12 +37,19 @@
                     <img class="responsive-img materialboxed" src="{{ asset($carro->imagem) }}">
                     @endif
                 
-                    <blockquote>
-                        <h5>Descrição</h5>
-                        <div class="divider"></div>
-                        <p>{{ $carro->descricao }}</p>
-                    </blockquote>
-                                    
+
+                    <div class="row">
+                    @foreach($galeria as $imagem)                    
+                        <div class="col m3">
+                            <div class="card">
+                                <div class="card-image">                     
+                                    <img class="responsive-img" src="{{ asset($imagem->imagem) }}" alt="{{ $imagem->titulo }}">  <!-- responsive-img -->
+                                </div>
+                            </div>                               
+                        </div>                    
+                    @endforeach
+                    </div>
+                    
                     <br>
 
                     <div class="divider"></div>
@@ -153,7 +160,29 @@
                             <td><b><p class="dark-text">{{ $carro->potenciaMotor }}</p></b></td>
                         </tr>
                         </tbody>
-                    </table>                   
+                    </table> 
+
+                    <br>
+                    <br>
+                    <div class="divider"></div>
+
+                    <div class="row">
+                        <div class="col m6">
+                        <blockquote>
+                            <h5>Descrição</h5>
+                            <div class="divider"></div>
+                            <p>{{ $carro->descricao }}</p>
+                        </blockquote>
+                        </div>
+                        <div class="col m6">
+                        <blockquote>
+                            <h5>Opcionais</h5>
+                            <div class="divider"></div>
+                            <p>{{ $carro->opcionais }}</p>
+                        </blockquote>
+                        </div>
+                    </div>
+
                 </div>
             </div>
     </div>        

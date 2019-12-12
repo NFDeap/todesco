@@ -12,21 +12,21 @@ use App\Contato;
 class PaginaController extends Controller
 {
     public function sobre(){
-        $pagina = Pagina::where('tipo','=','sobre')->first();        
+        $pagina = Pagina::where('tipo','=','Sobre')->first();        
         $contatos = Contato::find(1);
         return view('site.sobre',compact('pagina','contatos'));
         
     }
 
     public function contato(){
-        $pagina = Pagina::where('tipo','=','contato')->first();        
+        $pagina = Pagina::where('tipo','=','Contato')->first();        
         $contatos = Contato::find(1);
         return view('site.contato',compact('pagina','contatos'));
         
     }
 
     public function enviarContato(Request $request){        
-        $pagina = Pagina::where('tipo','=','contato')->first();
+        $pagina = Pagina::where('tipo','=','Contato')->first();
         $email = $pagina->email;
 
         \Mail::send('emails.contato',['request'=>$request], 
@@ -43,13 +43,13 @@ class PaginaController extends Controller
     }
 
     public function trabalheConosco(){
-        $pagina = Pagina::where('tipo','=','trabalheconosco')->first();
+        $pagina = Pagina::where('tipo','=','TrabalheConosco')->first();
         $contatos = Contato::find(1);
         return view('site.trabalheconosco',compact('pagina','contatos'));
     }
     
     public function enviarTrabalheConosco(Request $request){                
-        $pagina = Pagina::where('tipo','=','trabalheconosco')->first();
+        $pagina = Pagina::where('tipo','=','TrablheConosco')->first();
         $email = $pagina->email;
         
         \Mail::send('emails.trabalheconosco',['request'=>$request], 
@@ -72,13 +72,13 @@ class PaginaController extends Controller
 
 
     public function financiamento(){
-        $pagina = Pagina::where('tipo','=','financiamento')->first();
+        $pagina = Pagina::where('tipo','=','Simulacao')->first();
         $contatos = Contato::find(1);
         return view('site.financiamento',compact('pagina','contatos'));
     }
 
     public function enviarFinanciamento(Request $request){        
-        $pagina = Pagina::where('tipo','=','financiamento')->first();
+        $pagina = Pagina::where('tipo','=','Simulacao')->first();
         $email = $pagina->email;
 
         \Mail::send('emails.financiamento',['request'=>$request], 

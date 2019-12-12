@@ -18,9 +18,9 @@
         </div>
 
         <div class="row">      
-        @can('usuario_adicionar')      
+         
             <a class="btn btncar" href="{{ route('admin.marcas.adicionar') }}">Adicionar <i class="material-icons right">add</i> </a>        
-        @endcan
+        
         </div>
 
         <div class="row">

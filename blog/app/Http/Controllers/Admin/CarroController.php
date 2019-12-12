@@ -56,6 +56,7 @@ class CarroController extends Controller
         $registro->direcao = $registros['direcao'];
         $registro->potenciaMotor = $registros['potenciaMotor'];        
         $registro->descricao = $registros['descricao'];
+        $registro->opcionais = $registros['opcionais'];
         $registro->visualizacoes = 0;
         $registro->publicar = $registros['publicar'];
 
@@ -101,7 +102,8 @@ class CarroController extends Controller
         $registro->cambio = $registros['cambio'];
         $registro->direcao = $registros['direcao'];
         $registro->potenciaMotor = $registros['potenciaMotor'];        
-        $registro->descricao = $registros['descricao'];    
+        $registro->descricao = $registros['descricao'];   
+        $registro->opcionais = $registros['opcionais']; 
         $registro->publicar = $registros['publicar'];
         
         $registro->marca_id = $registros['marca_id'];
