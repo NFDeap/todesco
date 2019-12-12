@@ -30,8 +30,8 @@
                     </div>
                          
                     <div class="row center-align">
-                        <button onclick="sliderPrev()" class="btn btn1">Anterior</button>
-                        <button onclick="sliderNext()" class="btn btn1">Próxima</button>
+                        <button onclick="sliderPrev()" class="btn btn1"><<</button>
+                        <button onclick="sliderNext()" class="btn btn1">>></button>
                     </div>   
                     @else
                     <img class="responsive-img materialboxed" src="{{ asset($carro->imagem) }}">
