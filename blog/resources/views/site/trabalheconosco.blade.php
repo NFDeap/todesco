@@ -25,14 +25,14 @@
             {{ csrf_field() }}
                 <div class="container-fluid">                    
                         <div class="input-field">
-                            <input type="text" name="nome" class="validate" maxlength="60">
+                            <input type="text" name="nome" class="validate" maxlength="60" required>
                             <label>Nome Completo</label>
                         </div>
                             
                         <div class="row section">
                             <div class="col m6">
                                 <div class="input-field">
-                                    <input type="text" name="email" class="validate" maxlength="70">
+                                    <input type="text" name="email" class="validate" maxlength="70" required>
                                     <label>E-mail</label>
                                     <span class="helper-text" data-error="wrong">Exemplo: teste@teste.com</span>
                                 </div>
@@ -42,7 +42,7 @@
                                     <span class="helper-text" data-error="wrong">Exemplo: 999.999.999/99</span>
                                 </div>
                                 <div class="input-field">
-                                    <input type="text" name="nascimento" class="validate" maxlength="10">
+                                    <input type="text" name="nascimento" class="validate" maxlength="10" required>
                                     <label>Nascimento</label>
                                     <span class="helper-text" data-error="wrong">Exemplo: 99/99/9999</span>
                                 </div>  
@@ -55,7 +55,7 @@
                                     <span class="helper-text" data-error="wrong">Exemplo: (99) 9999-9999</span>
                                 </div>
                                 <div class="input-field">
-                                    <input type="text" name="celular" class="validate" maxlength="16">
+                                    <input type="text" name="celular" class="validate" maxlength="16" required>
                                     <label>Celular / WhatsApp</label>
                                     <span class="helper-text" data-error="wrong">Exemplo: (99) 9 9999-9999</span>
                                 </div>       
@@ -72,17 +72,17 @@
                         <div class="row section">
                             <div class="col m6">
                                 <div class="input-field">
-                                    <input type="text" name="cep" class="validate" maxlength="9">
+                                    <input type="text" name="cep" class="validate" maxlength="9" required>
                                     <label>CEP</label>
                                     <span class="helper-text" data-error="wrong">Exemplo: 99999-999</span>
                                 </div> 
                                 <div class="input-field">
-                                    <input type="text" name="cnh" class="validate" maxlength="35">
+                                    <input type="text" name="cnh" class="validate" maxlength="35" required>
                                     <label>Cidade</label>
                                     <span class="helper-text" data-error="wrong">Exemplo: Sorocaba</span>
                                 </div> 
                                 <div class="input-field">
-                                    <input type="text" name="cnh" class="validate" maxlength="25">
+                                    <input type="text" name="cnh" class="validate" maxlength="25" required>
                                     <label>Estado</label>
                                     <span class="helper-text" data-error="wrong">Exemplo: São Paulo</span>
                                 </div> 

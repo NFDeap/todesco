@@ -37,13 +37,9 @@
                     <tr>
                         <td>{{ $registro->id }}</td>
                         <td>{{ $registro->titulo }}</td>                        
-                        <td>                           
-                        @can('usuario_editar')
-                            <a class="btn btn1" href="{{ route('admin.modelos.editar',$registro->id) }}">Editar <i class="material-icons right">edit</i></a>
-                        @endcan                   
-                        @can('usuario_deletar')
-                            <a class="btn btn3" href="javascript: if(confirm('Deletar esse Registro?')){window.location.href = '{{ route('admin.modelos.deletar',$registro->id) }}'}">Deletar <i class="material-icons right">remove</i></a>                           
-                        @endcan                            
+                        <td>                                                   
+                            <a class="btn btn1" href="{{ route('admin.modelos.editar',$registro->id) }}">Editar <i class="material-icons right">edit</i></a>                                                
+                            <a class="btn btn3" href="javascript: if(confirm('Deletar esse Registro?')){window.location.href = '{{ route('admin.modelos.deletar',$registro->id) }}'}">Deletar <i class="material-icons right">remove</i></a>                                                                      
                         </td>
                     </tr>
                 @endforeach    

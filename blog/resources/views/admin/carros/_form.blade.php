@@ -99,7 +99,7 @@
     <div class="file-field input-field col m6 s12">
         <div class="btn btncar">
         <span>Imagem</span> <i class="material-icons right">image</i>
-            <input type="file" name="imagem" required>
+            <input type="file" name="imagem" >
         </div>        
         <div class="file-path-wrapper">
             <input type="text" class="file-path validade">

@@ -1,7 +1,7 @@
 @include('layouts._site._filtros') 
 
 <div class="row section">
-    <h4 class="center-align textNovEstoque">Novidades em Estoque</h4>
+    <h4 class="center-align textNovEstoque">Estoque</h4>
     <br>
     <div class="divider grey darken-4"></div>   
     <br>

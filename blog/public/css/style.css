@@ -78,13 +78,15 @@ nav, nav .nav-wrapper i {
 }
 
 .path{    
-  border-bottom: 2px solid #c0343f;    
-  background-color: rgb(204, 180, 138);  ;
+  border-bottom: 2px solid #244610;    
+  
 }
 .path a{
   color:rgb(190, 226, 228); 
 }
-
+.grey.darken-4{
+  background-color: #c0343f !important; 
+}
 
 .principal{
   flex: 1 0 auto;   
@@ -216,13 +218,25 @@ ul.pagination li.disabled {
   display: inline-block;
 }
 
+.btn, .btn-large, .btn-small {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(36, 70, 16) !important;
+  text-align: center;
+  letter-spacing: .5px;
+  -webkit-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+  cursor: pointer;
+}  
 
 .btn{
   margin: 5px;    
-  color:black;
 }
+
+/* 
+
 .btn:link, .btn:visited, .btn:active, .btn:hover {
-  background-color: rgb(238, 200, 123);   
+  background-color: rgb(133, 133, 133);   
 }
 
 .btn1{      
@@ -256,7 +270,7 @@ ul.pagination li.disabled {
 .btncar:link, .btncar:visited, .btncar:active, .btncar:hover {
   background-color: rgb(62, 100, 41);  
 }
-
+ */
 
 .page-footer {
   /* border-top: 5px solid #c0343f; */

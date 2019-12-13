@@ -24,19 +24,19 @@
             {{ csrf_field() }}
                 <div class="container-fluid">                    
                         <div class="input-field">
-                            <input type="text" name="nome" class="validate" maxlength="60">
+                            <input type="text" name="nome" class="validate" maxlength="60" required>
                             <label>Nome Completo</label>
                         </div>
                         
                         <div class="row section">
                             <div class="col m6">
                                 <div class="input-field">
-                                    <input type="text" name="email" class="validate" maxlength="70">
+                                    <input type="text" name="email" class="validate" maxlength="70" required>
                                     <label>E-mail</label>
                                     <span class="helper-text" data-error="wrong"  >Exemplo: teste@teste.com</span>
                                 </div>
                                 <div class="input-field">
-                                    <input type="text" name="CPFCNPJ" class="validate" maxlength="18">
+                                    <input type="text" name="CPFCNPJ" class="validate" maxlength="18" required>
                                     <label>CPF ou CNPJ</label>
                                     <span class="helper-text" data-error="wrong"  >Exemplo: 999.999.999/99 ou 99.999.999/0009-99</span>
                                 </div>
@@ -49,7 +49,7 @@
                                     <span class="helper-text" data-error="wrong"  >Exemplo: 99/99/9999</span>
                                 </div>                                                                                                               
                                 <div class="input-field">
-                                    <input type="text" name="celular" class="validate" maxlength="16">
+                                    <input type="text" name="celular" class="validate" maxlength="16" required>
                                     <label>Celular / WhatsApp</label>
                                     <span class="helper-text" data-error="wrong"  >Exemplo: (99) 9 9999-9999</span>
                                 </div>       

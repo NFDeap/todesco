@@ -46,11 +46,11 @@
                     <form class="col s12" action="{{ route('site.contato.enviar') }}" method="post">
                         {{ csrf_field() }}
                         <div class="input-field">
-                            <input type="text" name="nome" class="validate" maxlength="60">
+                            <input type="text" name="nome" class="validate" maxlength="60" required>
                             <label>Nome</label>
                         </div>
                         <div class="input-field">
-                            <input type="text" name="email" class="validate">
+                            <input type="text" name="email" class="validate" required>
                             <label>E-mail</label>
                         </div>
                         <div class="input-field">   

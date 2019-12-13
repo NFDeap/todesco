@@ -13,7 +13,7 @@
                     <div class="col m10">
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons mtidark">menu</i></a>
                     <ul class="right hide-on-med-and-down menu">
-                        <li><a class="" href="{{ route('site.home') }}">Home</a></li>
+                        <li><a class="" href="{{ route('site.home') }}">Estoque</a></li>
                         <li><a href="{{ route('site.sobre') }}">Sobre</a></li>
                         <li><a href="{{ route('site.contato') }}">Contato</a></li>                
                         <li><a href="{{ route('site.financiamento') }}">Simulação</a></li>   
@@ -25,7 +25,7 @@
             </div>     
    
             <ul class="sidenav menu" id="mobile-demo">                
-                <li><a href="{{ route('site.home') }}">Home</a></li>
+                <li><a href="{{ route('site.home') }}">Estoque</a></li>
                 <li><a href="{{ route('site.sobre') }}">Sobre</a></li>
                 <li><a href="{{ route('site.contato') }}">Contato</a></li>
                 <li><a href="{{ route('site.financiamento') }}">Simulação</a></li>

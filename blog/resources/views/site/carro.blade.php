@@ -22,28 +22,32 @@
                                     <div class="caption right-align">
                                         <h5>{{ $imagem->titulo }}</h5>                                    
                                         <p>{{ $imagem->descricao }}</p>                                    
-                                    </div>    
+                                    </div>  
                                 </li>
                             @endforeach
-                            </ul>
+                            </ul>        
                         </div>
+                        <div class="row center-align">
+                            <button onclick="sliderPrev()" class="btn-small btn1">
+                                <i class="material-icons center">keyboard_arrow_left</i>
+                            </button>
+                            <button onclick="sliderNext()" class="btn-small btn1">
+                                <i class="material-icons center">keyboard_arrow_right</i>
+                            </button>
+                        </div>   
                     </div>
-                         
-                    <div class="row center-align">
-                        <button onclick="sliderPrev()" class="btn btn1"><<</button>
-                        <button onclick="sliderNext()" class="btn btn1">>></button>
-                    </div>   
+
                     @else
                     <img class="responsive-img materialboxed" src="{{ asset($carro->imagem) }}">
                     @endif
-                
+
 
                     <div class="row">
                     @foreach($galeria as $imagem)                    
                         <div class="col m3">
                             <div class="card">
                                 <div class="card-image">                     
-                                    <img class="responsive-img" src="{{ asset($imagem->imagem) }}" alt="{{ $imagem->titulo }}">  <!-- responsive-img -->
+                                    <img class="responsive-img materialboxed" src="{{ asset($imagem->imagem) }}" alt="{{ $imagem->titulo }}">  <!-- responsive-img -->
                                 </div>
                             </div>                               
                         </div>                    
