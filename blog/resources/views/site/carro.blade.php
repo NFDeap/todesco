@@ -175,14 +175,14 @@
                         <blockquote>
                             <h5>Descrição</h5>
                             <div class="divider"></div>
-                            <p>{{ $carro->descricao }}</p>
+                            <p class="desc-post">{{ $carro->descricao }}</p>
                         </blockquote>
                         </div>
                         <div class="col m6">
                         <blockquote>
                             <h5>Opcionais</h5>
                             <div class="divider"></div>
-                            <p>{{ $carro->opcionais }}</p>
+                            <p class="desc-post">{{ $carro->opcionais }}</p>
                         </blockquote>
                         </div>
                     </div>

@@ -86,12 +86,12 @@
 </div>
 
 <div class="input-field">    
-    <textarea rows="4" cols="50" name="descricao" id="textarea1" class="materialize-textarea" required maxlength="1500">{{ (isset($registro->descricao) ? $registro->descricao : '') }}</textarea>
+    <textarea rows="4" cols="50" name="descricao" id="textarea1" class="materialize-textarea" required maxlength="600">{{ (isset($registro->descricao) ? $registro->descricao : '') }}</textarea>
     <label>Descrição: </label>
 </div>
 
 <div class="input-field">    
-    <textarea rows="4" cols="50" name="opcionais" id="textarea2" class="materialize-textarea" required maxlength="1500">{{ (isset($registro->opcionais) ? $registro->opcionais : '') }}</textarea>
+    <textarea rows="4" cols="50" name="opcionais" id="textarea2" class="materialize-textarea" required maxlength="600">{{ (isset($registro->opcionais) ? $registro->opcionais : '') }}</textarea>
     <label>Opcionais: </label>
 </div>
 

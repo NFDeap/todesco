@@ -233,6 +233,10 @@ ul.pagination li.disabled {
   margin: 5px;    
 }
 
+.btn1{
+  
+}
+
 /* 
 
 .btn:link, .btn:visited, .btn:active, .btn:hover {
@@ -451,4 +455,11 @@ tbody tr td{
 
 .alink{
   color:#244610;
+}
+
+
+
+
+.desc-post{
+  font-size: small;
 }
