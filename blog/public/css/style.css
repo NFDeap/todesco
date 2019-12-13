@@ -111,7 +111,9 @@ blockquote{
   background-color: #c0343f;
 }
 
+/* btn:link, .btn:visited, .btn:active, .btn:hover
 
+ */
 .slider-img {
   width: 100%;  
   background-image: center center no-repeat;
@@ -285,6 +287,7 @@ ul.pagination li.disabled {
 
 .dark-text{
   color: #212121;
+  font-size: large;
 }
 
 .pastel-text{
@@ -403,12 +406,10 @@ tbody tr td{
 }
 
 .detalhesCarro tr td{
-  padding: 6px;      
+  padding: 8px;      
 }
 
-.detalhesCarro tr{
-  padding: 1px;      
-}
+
 
 .imgWhatsapp{
   width: 25px;

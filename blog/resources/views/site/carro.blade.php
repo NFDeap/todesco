@@ -102,10 +102,10 @@
                         <thead>                        
                         </thead>
                         <tbody>                        
-                        <tr>
+                        <!-- <tr>
                             <td><b><p class="light-text">ID: </p></b></td>
                             <td><b><p class="dark-text">{{ $carro->id }}</p></b></td>
-                        </tr>
+                        </tr> -->
                         <tr>
                             <p class="dark-text"><b> </p>
                             <td><b><p class="light-text">Preço: </p></b></td>
@@ -143,7 +143,7 @@
                             <td><b><p class="light-text">Placa nº Final: </p></b></td>
                             <td><b><p class="dark-text">{{ $carro->placa }}</p></b></td>
                         </tr>
-                        <tr>
+                        <!-- <tr>
                             <td><b><p class="light-text">Aceita Trocas: </p></b></td>
                             <td><b><p class="dark-text">{{ $carro->aceitaTroca }}</p></b></td>
                         </tr>
@@ -162,7 +162,7 @@
                         <tr>
                             <td><b><p class="light-text">Potência do Motor: </p></b></td>
                             <td><b><p class="dark-text">{{ $carro->potenciaMotor }}</p></b></td>
-                        </tr>
+                        </tr> -->
                         </tbody>
                     </table> 
 
