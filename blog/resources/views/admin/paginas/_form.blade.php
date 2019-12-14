@@ -23,7 +23,10 @@
     </textarea>
     <label>Texto: </label>
 </div>
-
+@if($pagina->id == 3 || $pagina->id == 4)
+<div class="row">
+</div>
+@else
 <div class="row">
     <div class="file-field input-field col m6 s12">
         <div class="btn btn1">
@@ -49,3 +52,4 @@
     </textarea>    
     <label>Mapa: </label>    
 </div>
+@endif
