@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row section">
         <div class="center-align">
-            <h3>Contato</h3>
+            <h4>Contato</h4>
         </div>
             <div class="divider"></div>
             

@@ -19,7 +19,7 @@
 
         <div class="row">      
          
-            <a class="btn btncar" href="{{ route('admin.marcas.adicionar') }}">Adicionar <i class="material-icons right">add</i> </a>        
+            <a class="btn btn1" href="{{ route('admin.marcas.adicionar') }}">Adicionar <i class="material-icons right">add</i> </a>        
         
         </div>
 
@@ -39,7 +39,7 @@
                         <td>{{ $registro->titulo }}</td>                        
                         <td>                                                   
                             <a class="btn btn1" href="{{ route('admin.marcas.editar',$registro->id) }}">Editar <i class="material-icons right">edit</i> </a>                                                                                                        
-                            <a class="btn btn3" href="javascript: if(confirm('Deletar esse Registro?')){window.location.href = '{{ route('admin.marcas.deletar',$registro->id) }}'}">Deletar <i class="material-icons right">remove</i> </a>                                                                   
+                            <a class="btn btn1" href="javascript: if(confirm('Deletar esse Registro?')){window.location.href = '{{ route('admin.marcas.deletar',$registro->id) }}'}">Deletar <i class="material-icons right">remove</i> </a>                                                                   
                         </td>
                     </tr>
                 @endforeach    

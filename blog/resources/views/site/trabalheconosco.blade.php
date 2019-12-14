@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row section">
         <div class="center-align">
-            <h3>Trabalhe Conosco</h3>
+            <h4>Trabalhe Conosco</h4>
         </div>
 
             <div class="divider"></div>

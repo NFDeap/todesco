@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row section">
         <div class="center-align">
-            <h3>Sobre</h3>
+            <h4>Sobre</h4>
         </div>
             <div class="divider"></div>
             

@@ -22,7 +22,7 @@
                     {{ csrf_field() }}  <!-- //Helper que cria token para dar segurança para o formulário -->
                     <div class="container-fluid">
                     @include('admin.slides._form')                    
-                    <button class="btn btncar">Adicionar <i class="material-icons right">add</i> </button>
+                    <button class="btn btn1">Adicionar <i class="material-icons right">add</i> </button>
                     </div>
                     
                 </form>                

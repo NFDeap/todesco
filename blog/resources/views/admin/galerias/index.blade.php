@@ -20,7 +20,7 @@
 
         
         <div class="row">
-            <a class="btn btncar" href="{{ route('admin.galerias.adicionar',$carro->id) }}">Adicionar <i class="material-icons right">add</i> </a>
+            <a class="btn btn1" href="{{ route('admin.galerias.adicionar',$carro->id) }}">Adicionar <i class="material-icons right">add</i> </a>
         </div>
 
         <div class="row">
@@ -44,8 +44,8 @@
                         <td><div class="thumbnail"><img src="{{ asset($registro->imagem) }}"></div></td>
                         <td>{{ $registro->ordem }}</td>   
                         <td>
-                            <a class="btn btn2" href="{{ route('admin.galerias.editar',$registro->id) }}">Editar</a>     <!-- <i class="material-icons right">edit</i>  -->
-                            <a class="btn btn3" href="javascript: if(confirm('Deletar esse Registro?')){window.location.href = '{{ route('admin.galerias.deletar',$registro->id) }}'}">Deletar</a>   <!-- <i class="material-icons right">delete</i>  -->
+                            <a class="btn btn1" href="{{ route('admin.galerias.editar',$registro->id) }}">Editar</a>     <!-- <i class="material-icons right">edit</i>  -->
+                            <a class="btn btn1" href="javascript: if(confirm('Deletar esse Registro?')){window.location.href = '{{ route('admin.galerias.deletar',$registro->id) }}'}">Deletar</a>   <!-- <i class="material-icons right">delete</i>  -->
                         </td>
                     </tr>
                 @endforeach    

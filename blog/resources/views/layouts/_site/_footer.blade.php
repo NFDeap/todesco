@@ -32,8 +32,10 @@
         </div>
         <div class="col m4 s12">
           <h5 class="white-text">Links</h5>
+          <div class="row">
                 <ul class="footerLinks">
-                    <div class="col m6">
+                
+                    <div class="col m6 s6">
                     <table class="tableFooter plusFooter">
                         <thead>
                         </thead>
@@ -51,7 +53,7 @@
                     </div>            
                 </ul>
                 <ul class="footerLinks">
-                    <div class="col m6">
+                    <div class="col m6 s6">
                     <li><a class="" href="{{ route('site.home') }}"><b>Home</b></a></li>
                     <li><a class="" href="{{ route('site.sobre') }}"><b>Sobre</b></a></li>
                     <li><a class="" href="{{ route('site.contato') }}"><b>Contato</b></a></li>            
@@ -60,6 +62,7 @@
                     <li><a class="" href="{{ route('site.trabalheconosco') }}"><b>Trabalhe Conosco</b></a></li>                    
                     </div>            
                 </ul>
+            </div>
         </div>
         <div class="col m2">
             <p></p>

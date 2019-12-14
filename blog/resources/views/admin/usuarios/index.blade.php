@@ -18,7 +18,7 @@
         </div>
 
         <div class="row">                
-            <a class="btn btncar" href="{{ route('admin.usuarios.adicionar') }}">Adicionar <i class="material-icons right">add</i> </a>                
+            <a class="btn btn1" href="{{ route('admin.usuarios.adicionar') }}">Adicionar <i class="material-icons right">add</i> </a>                
         </div>
 
         <div class="row">
@@ -40,7 +40,7 @@
                         <td>                                                   
                             <a class="btn btn1" href="{{ route('admin.usuarios.editar',$usuario->id) }}">Editar <i class="material-icons right">edit</i> </a>                            
                             <!-- <a class="btn btn2" href="{{ route('admin.usuarios.papel',$usuario->id) }}">Papel <i class="material-icons right">person</i> </a>                                  -->                        
-                            <a class="btn btn3" href="javascript: if(confirm('Deletar esse Registro?')){window.location.href = '{{ route('admin.usuarios.deletar',$usuario->id) }}'}">Deletar <i class="material-icons right">delete</i> </a>                           
+                            <a class="btn btn1" href="javascript: if(confirm('Deletar esse Registro?')){window.location.href = '{{ route('admin.usuarios.deletar',$usuario->id) }}'}">Deletar <i class="material-icons right">delete</i> </a>                           
                                           
                         </td>
                     </tr>

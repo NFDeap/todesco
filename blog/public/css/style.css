@@ -235,8 +235,9 @@ ul.pagination li.disabled {
   margin: 5px;    
 }
 
-.btn1{
-  
+.btn1:hover{
+  transition: 0.5s;
+  background-color: rgb(62, 102, 39) !important;
 }
 
 /* 

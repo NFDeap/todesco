@@ -16,7 +16,7 @@
                 <h4>{{ $slide->titulo }}</h4>
                 <h5>{{ $slide->descricao }}</h5>
                 @if($slide->link != null)
-                    <a href="{{ $slide->link }}" class="btn btn-small blue">Mais...</a>
+                    <a href="{{ $slide->link }}" class="btn-small btn1">Mais...</a>
                 @endif
             </div>            
         </li>

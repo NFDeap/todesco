@@ -97,7 +97,7 @@
 
 <div class="row">
     <div class="file-field input-field col m6 s12">
-        <div class="btn btncar">
+        <div class="btn btn1">
         <span>Imagem</span> <i class="material-icons right">image</i>
             <input type="file" name="imagem" >
         </div>        

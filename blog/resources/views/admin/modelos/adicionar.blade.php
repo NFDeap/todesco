@@ -22,7 +22,7 @@
                     {{ csrf_field() }}  <!-- //Helper que cria token para dar segurança para o formulário -->
                     @include('admin.modelos._form')
 
-                    <button class="btn btncar">Adicionar <i class="material-icons right">add</i> </button>
+                    <button class="btn btn1">Adicionar <i class="material-icons right">add</i> </button>
                 </form>
             </div>
     </div>

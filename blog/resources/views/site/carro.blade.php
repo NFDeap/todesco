@@ -44,7 +44,7 @@
 
                     <div class="row">
                     @foreach($galeria as $imagem)                    
-                        <div class="col m3">
+                        <div class="col m3 s6">
                             <div class="card">
                                 <div class="card-image">                     
                                     <img class="responsive-img materialboxed" src="{{ asset($imagem->imagem) }}" alt="{{ $imagem->titulo }}">  <!-- responsive-img -->

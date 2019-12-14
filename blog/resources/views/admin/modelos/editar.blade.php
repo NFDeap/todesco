@@ -23,7 +23,7 @@
                     <input type="hidden" name="_method" value="put">
                     @include('admin.modelos._form')
 
-                    <button class="btn btncar">Atualizar <i class="material-icons right">cached</i> </button>
+                    <button class="btn btn1">Atualizar <i class="material-icons right">cached</i> </button>
                 </form>
             </div>
     </div>
