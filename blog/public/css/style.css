@@ -84,9 +84,6 @@ nav, nav .nav-wrapper i {
 .path a{
   color:rgb(190, 226, 228); 
 }
-.grey.darken-4{
-  background-color: #c0343f !important; 
-}
 
 .principal{
   flex: 1 0 auto;   
